@@ -8,7 +8,16 @@ public class Calculator {
     public Calculator(Item[] expr){
         this.expr = expr;
         this.ip = 0;
-        this.stack = new Stack();
+        //this.stack = new StaticStack();
+        this.stack = new DynamicStack();
+    }
+
+
+    public int run() {
+        while ( ip < expr.length ) {
+            step();
+        }
+        return stack.pop();
     }
 
     public void step() {
@@ -39,14 +48,11 @@ public class Calculator {
                 stack.push(x / y);
                 break;
             }
+            case VALUE: {
+                stack.push(nxt.value());
+                break;
+            }
         }
-    }
-
-    public int run() {
-        while ( ip < expr.length ) {
-            step();
-        }
-        return stack.pop();
     }
 
 
