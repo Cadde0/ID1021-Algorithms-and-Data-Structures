@@ -8,8 +8,8 @@ public class Calculator {
     public Calculator(Item[] expr){
         this.expr = expr;
         this.ip = 0;
-        //this.stack = new StaticStack();
-        this.stack = new DynamicStack();
+        this.stack = new StaticStack();
+        //this.stack = new DynamicStack();
     }
 
 

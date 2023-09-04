@@ -1,7 +1,7 @@
 package HP35;
 
 public class StaticStack extends Stack{
-    private int[] stack = new int[1024];
+    private int[] stack = new int[16384];
     private int stackPointer = 0;
 
     public void push(int x) {

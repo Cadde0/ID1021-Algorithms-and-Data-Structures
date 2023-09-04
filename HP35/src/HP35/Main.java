@@ -1,14 +1,11 @@
 package HP35;
 
-import java.sql.SQLOutput;
 
 public class Main{
     public static void main(String[] args) {
-        //Benchmark
 
         // 10 + 2 * 5
         // 10 2 5 * + in reversed Polish notation
-
         /*Item[] expr = {
                 Item.Value(10),
                 Item.Value(2),
@@ -18,8 +15,7 @@ public class Main{
         };*/
 
         //1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 + * + * + * + * + * + * + * +
-
-        Item[] expr = {
+        /*Item[] expr = {
                 Item.Value(1),
                 Item.Value(2),
                 Item.Value(3),
@@ -52,15 +48,32 @@ public class Main{
                 Item.Mul(),
                 Item.Add(),
 
+        };*/
+        //Benchmark
+        Item[] expr = {
+                Item.Value(0)
         };
 
         Calculator calc = new Calculator(expr);
-
-        for (int i = 0; i < 1000; i++){
-
+        double min = Double.POSITIVE_INFINITY;
+        for (int i = 0; i < 100000; i++) {
+            double t0 = System.nanoTime();
+            for (int o = 0; o < 10000; o++) {
+                calc.stack.push(i);
+            }
+            for (int c = 0; c < 10000; c++) {
+                calc.stack.pop();
+            }
+            double t1 = System.nanoTime();
+            double t = t1 - t0;
+            
+            if(t < min) {
+                min = t;
+            }
         }
-        int res = calc.run();
-        System.out.println(" Calculator: res = " + res);
+        System.out.println("Minimum : " + min);
+        //int res = calc.run();
+        //System.out.println(" Calculator: res = " + res);
         //System.out.println("Time : " + );
 
     }

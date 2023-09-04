@@ -36,7 +36,7 @@ public class DynamicStack extends Stack{
     public int pop(){
         if (stackPointer < 1 ){
             throw new IndexOutOfBoundsException("Stack NOflow");
-        } else if (stackPointer + 1 == size / 2) {
+        } else if (stackPointer + 1 == size / 4) {
             decrease();
         }
         return stack[--stackPointer];
