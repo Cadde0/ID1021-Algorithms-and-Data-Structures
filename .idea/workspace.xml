@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9e1ba1b-a970-468a-b292-d88a449eeb0c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HP35/src/HP35/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/HP35/src/HP35/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HP35/src/HP35/DynamicStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/HP35/src/HP35/DynamicStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HP35/src/HP35/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HP35/src/HP35/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HP35/src/HP35/StaticStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/HP35/src/HP35/StaticStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 2 - Sorted/src/Sorted/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 2 - Sorted/src/Sorted/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -98,6 +95,15 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="7" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Lab 2 - Sorted/src/Sorted/Bench.java</url>
+          <line>13</line>
+          <properties class="Sorted.Bench" method="binary">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
