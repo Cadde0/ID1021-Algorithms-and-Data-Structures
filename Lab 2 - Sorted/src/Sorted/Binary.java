@@ -23,6 +23,9 @@ public class Binary {
                 last = index;
                 continue;
             }
+            break;
         }
+        return false;
+
     }
 }
