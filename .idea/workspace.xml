@@ -87,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693307795808</updated>
-      <workItem from="1693307797239" duration="55254000" />
+      <workItem from="1693307797239" duration="61067000" />
     </task>
     <servers />
   </component>
@@ -116,14 +116,10 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="7" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Lab 2 - Sorted/src/Sorted/Bench.java</url>
-          <line>13</line>
-          <properties class="Sorted.Bench" method="binary">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
+          <line>14</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
