@@ -9,7 +9,7 @@ public class Binary {
             //Jump to the middle
             int index = (last + first) / 2;
             if (array[index] == key) {
-                break;
+                return true;
             }
             if (array[index] < key && index < last) {
                 //The index position holds something that is less than
@@ -23,8 +23,6 @@ public class Binary {
                 last = index;
                 continue;
             }
-            if (index)
         }
-        return true;
     }
 }
