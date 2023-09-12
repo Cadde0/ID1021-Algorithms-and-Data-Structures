@@ -18,6 +18,7 @@ class Bench {
     }
 
 
+
     private static int[] sorted(int n) {
         Random rnd = new Random();
         int[] array = new int[n];
@@ -43,7 +44,7 @@ class Bench {
 
     public static void main(String[] arg) {
 
-        int[] sizes = {100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600};
+        int[] sizes = {100,200,400,800,1600,3200,6400,12800,25600,51200};
 
         System.out.printf("# searching through an array of length n, time in ns\n");
         System.out.printf("#%7s%8s%8s\n", "n", "linear", "binary");
@@ -56,7 +57,7 @@ class Bench {
 
             System.out.printf("%8d", n);
 
-            int k = 1000;
+            int k = 100000;
 
             double min = Double.POSITIVE_INFINITY;
 

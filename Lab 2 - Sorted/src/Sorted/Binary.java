@@ -6,7 +6,7 @@ public class Binary {
 
         while (true){
             //Jump to the middle
-            int index = Math.round((last + first) / 2);
+            int index = (last + first) / 2;
             if (array[index] == key) {
                 return true;
             }
@@ -28,22 +28,22 @@ public class Binary {
 
     }
 
-    public static boolean duplicate(int[] array, int[] key) {
+    public static boolean duplicate(int[] array, int[] arr2) {
         int index = 0;
-        for (int i = 0; i < array.length; i++){
+        for (int i = 0; i < arr2.length; i++){
             while (true) {
-                if (array[index] == key[i]) {
-                    return true;
+                if (array[index] == arr2[i]) {
+                    index++;
+                    break;
                 }
-                if (array[index] < key[i]) {
-                    return false;
+                if (array[index] < arr2[i]) {
+                    index++;
+                    continue;
                 }
-
+                return false;
             }
-
         }
         return false;
-
 
     }
 }
