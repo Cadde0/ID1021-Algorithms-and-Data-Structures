@@ -5,12 +5,12 @@ public class Sort {
     public static void selection_sort(int [] array) {
 
         for (int i = 0; i < array.length - 1; i++){
-            int candidate = i;
+            int cand = i;
             for (int j = i; j < array.length; j++){
-                if (array[j] < array[candidate])
-                    candidate = j;
+                if (array[j] < array[cand])
+                    cand = j;
             }
-            swap(array, i, candidate);
+            swap(array, i, cand);
         }
     }
 
@@ -22,17 +22,9 @@ public class Sort {
         }
     }
 
-    public static void merge_sort(int [] org, int [] aux, int lo, int mid, int hi) {
-        
-    }
-
-    public static void quick_sort(int [] array) {
-
-    }
-
-    private static void swap(int [] array,int i, int candidate) {
-        int temp = array[candidate];
-        array[candidate] = array[i];
+    private static void swap(int [] array,int i, int cand) {
+        int temp = array[cand];
+        array[cand] = array[i];
         array[i] = temp;
     }
 
