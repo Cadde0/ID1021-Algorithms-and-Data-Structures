@@ -2,9 +2,8 @@ package Sorting;
 
 public class Merge {
     public static void start(int [] org) {
-        if (org.length == 0) {
+        if (org.length == 0)
             return;
-        }
         int [] aux = new int[org.length];
         sort(org, aux, 0, org.length - 1);
     }
@@ -15,9 +14,8 @@ public class Merge {
             //Sort from lo to mid
             sort(org, aux, lo, mid);
             //Sort from mid + 1 to hi
-            sort(org, aux, mid + 1, hi);
+            sort(org, aux, (mid + 1), hi);
             //merge the two sections using the additional array
-
             merge(org, aux, lo, mid, hi);
 
         }
@@ -25,7 +23,7 @@ public class Merge {
 
     private static void merge(int [] org, int [] aux, int lo, int mid, int hi) {
         //Copy all items from lo to hi from org to aux
-        for (int i = 0; i < org.length; i++) {
+        for (int i = lo; i <= hi; i++) {
             aux[i] = org[i];
         }
         //Let's do the merging
@@ -42,7 +40,7 @@ public class Merge {
             // else if j is greate than hi then
             // move the i'th item to the org array, update i
             else if (j > hi) {
-                org[k] = org[i++];
+                org[k] = aux[i++];
             }
             // else if the i'th item is smaller than the j¨ath item,
             // move the i'th item to the org array, update i
