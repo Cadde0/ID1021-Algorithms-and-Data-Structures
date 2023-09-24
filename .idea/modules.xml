@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Doubly Linked List/Doubly Linked List.iml" filepath="$PROJECT_DIR$/Doubly Linked List/Doubly Linked List.iml" />
       <module fileurl="file://$PROJECT_DIR$/HP35/HP35.iml" filepath="$PROJECT_DIR$/HP35/HP35.iml" />
       <module fileurl="file://$PROJECT_DIR$/ID1021.iml" filepath="$PROJECT_DIR$/ID1021.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab 2 - Sorted/Lab 2 - Sorted.iml" filepath="$PROJECT_DIR$/Lab 2 - Sorted/Lab 2 - Sorted.iml" />
