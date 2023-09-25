@@ -124,7 +124,14 @@ public class List {
     }
 
     void insert(Cell item) {
-        
+        Cell newCell = new Cell(item.head, first, null);
+        if (first != null) {
+            first.prev = newCell;
+        }
+        first = newCell;
+        if (last == null) {
+            last = newCell;
+        }
 
     }
 

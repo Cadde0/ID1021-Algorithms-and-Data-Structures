@@ -7,8 +7,7 @@
     <list default="true" id="f9e1ba1b-a970-468a-b292-d88a449eeb0c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 4 - Linked List/src/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 4 - Linked List/src/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 4 - Linked List/src/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 4 - Linked List/src/LinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doubly Linked List/src/Doubly_Linked_List/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/Doubly Linked List/src/Doubly_Linked_List/List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
@@ -62,7 +62,7 @@
       <recent name="$PROJECT_DIR$/HP35/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bench">
+  <component name="RunManager" selected="Application.Tree.Main">
     <configuration name="Bench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.Bench" />
       <module name="Lab 4 - Linked List" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.Main" />
-      <module name="Lab 3 - Sorting" />
+    <configuration name="Tree.Bench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Bench" />
+      <module name="Lab 5 - Tree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.SortingBenchmark" />
-      <module name="Lab 3 - Sorting" />
+    <configuration name="Tree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Main" />
+      <module name="Lab 5 - Tree" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tree.Main" />
+        <item itemvalue="Application.Tree.Bench" />
         <item itemvalue="Application.Bench" />
         <item itemvalue="Application.Doubly_Linked_List.Main" />
         <item itemvalue="Application.LinkedList.Main" />
-        <item itemvalue="Application.SortingBenchmark" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +148,7 @@
       <updated>1693307795808</updated>
       <workItem from="1693307797239" duration="82952000" />
       <workItem from="1694528595247" duration="11675000" />
-      <workItem from="1694907745140" duration="35169000" />
+      <workItem from="1694907745140" duration="54178000" />
     </task>
     <servers />
   </component>
@@ -176,6 +176,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="13" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.EmptyStackException" package="java.util" />
+          <option name="timeStamp" value="18" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
