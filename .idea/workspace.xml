@@ -7,7 +7,7 @@
     <list default="true" id="f9e1ba1b-a970-468a-b292-d88a449eeb0c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doubly Linked List/src/Doubly_Linked_List/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/Doubly Linked List/src/Doubly_Linked_List/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 5 - Tree/src/Tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 5 - Tree/src/Tree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +61,11 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/HP35/src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Queues" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Tree.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Bench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.Bench" />
       <module name="Lab 4 - Linked List" />
@@ -89,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedList.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.Main" />
-      <module name="Lab 4 - Linked List" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queues.Main" />
+      <module name="Lab 6 - Queues" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tree.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Tree.Bench" />
+        <item itemvalue="Application.Tree.Main" />
         <item itemvalue="Application.Bench" />
         <item itemvalue="Application.Doubly_Linked_List.Main" />
-        <item itemvalue="Application.LinkedList.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +151,7 @@
       <updated>1693307795808</updated>
       <workItem from="1693307797239" duration="82952000" />
       <workItem from="1694528595247" duration="11675000" />
-      <workItem from="1694907745140" duration="54178000" />
+      <workItem from="1694907745140" duration="76652000" />
     </task>
     <servers />
   </component>

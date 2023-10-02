@@ -1,8 +1,9 @@
-package Tree;
+package Queues;
 
 
 import java.util.Iterator;
-import java.util.Stack;
+import java.util.NoSuchElementException;
+
 
 public class BinaryTree implements Iterable<Integer> {
 
@@ -29,7 +30,7 @@ public class BinaryTree implements Iterable<Integer> {
 
     Node root;
 
-    public BinaryTree () {
+    public BinaryTree() {
         root = null;
     }
 
@@ -71,39 +72,37 @@ public class BinaryTree implements Iterable<Integer> {
     }
 
     public class TreeIterator implements Iterator <Integer>{
-        private Node next;
-        private Stack <Node> stack;
+        private Queue queue;
 
         public TreeIterator() {
-            stack = new Stack<>();
-            Node current = root;
-            while (current != null){
-                stack.push(current);
-                current = current.left;
+            queue = new Queue();
+            if (root != null) {
+                queue.add(root);
             }
         }
 
 
         @Override
         public boolean hasNext() {
-            return (!stack.isEmpty());
+            return (!queue.isEmpty());
         }
 
 
         @Override
         public Integer next() {
-            if (!hasNext())
-                throw new UnsupportedOperationException();
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
 
-            Node current = stack.pop();
+            BinaryTree.Node current = queue.remove();
+            if (current.left != null) {
+                queue.add(current.left);
+            }
             if (current.right != null) {
-                Node rightBranch = current.right;
-                while (rightBranch != null) {
-                    stack.push(rightBranch);
-                    rightBranch = rightBranch.left;
-                }
+                queue.add(current.right);
             }
             return current.value;
+
         }
 
         @Override
