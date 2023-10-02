@@ -1,12 +1,9 @@
 package Queues;
 
-
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-
 public class BinaryTree implements Iterable<Integer> {
-
 
     public class Node {
         public Integer key;
@@ -65,7 +62,6 @@ public class BinaryTree implements Iterable<Integer> {
         return null;
     }
 
-
     @Override
     public Iterator<Integer> iterator() {
         return new TreeIterator();
@@ -81,12 +77,10 @@ public class BinaryTree implements Iterable<Integer> {
             }
         }
 
-
         @Override
         public boolean hasNext() {
             return (!queue.isEmpty());
         }
-
 
         @Override
         public Integer next() {
@@ -102,7 +96,6 @@ public class BinaryTree implements Iterable<Integer> {
                 queue.add(current.right);
             }
             return current.value;
-
         }
 
         @Override

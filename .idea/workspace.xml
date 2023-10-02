@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9e1ba1b-a970-468a-b292-d88a449eeb0c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 5 - Tree/src/Tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 5 - Tree/src/Tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 6 - Queues/src/Queues/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 6 - Queues/src/Queues/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 6 - Queues/src/Queues/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 6 - Queues/src/Queues/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 6 - Queues/src/Queues/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 6 - Queues/src/Queues/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 6 - Queues/src/Queues/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 6 - Queues/src/Queues/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2UelBreYZbjh43hjHTfmp6vhmMN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -53,7 +60,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -152,6 +160,7 @@
       <workItem from="1693307797239" duration="82952000" />
       <workItem from="1694528595247" duration="11675000" />
       <workItem from="1694907745140" duration="76652000" />
+      <workItem from="1696276426236" duration="1924000" />
     </task>
     <servers />
   </component>

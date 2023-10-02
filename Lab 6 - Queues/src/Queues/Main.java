@@ -17,6 +17,7 @@ public class Main {
         queue.print();
         */
 
+
         BinaryTree tree = new BinaryTree();
         tree.add(5,105);
         tree.add(3,103);
@@ -30,6 +31,10 @@ public class Main {
         for (int i : tree) {
             System.out.println("next value " + i);
         }
+
+
+
+
 
 
     }
