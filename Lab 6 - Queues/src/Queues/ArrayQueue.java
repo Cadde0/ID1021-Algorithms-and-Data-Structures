@@ -33,11 +33,29 @@ public class ArrayQueue {
     public int remove() {
         if (head != tail) {
             int value = queue[head];
+
+            for (int i = 0; i < tail - 1; i++) {
+                queue[i] = queue[i + 1];
+            }
+
+            if (tail < size)
+                queue[tail] = 0;
+
+            tail--;
+
+            return value;
+        } else {
+            throw new Error("Empty Queue");
         }
 
-        for (int i = 0; i < tail - 1; i++) {
-            queue[i] = queue[i + 1];
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (int i = head; i < tail; i++) {
+            sb.append(queue[i] + ", ");
         }
+        return sb.toString();
     }
 
 
