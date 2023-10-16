@@ -24,12 +24,10 @@ public class ArrayQueue {
     public void add(int item) {
         if (tail == size - 1)
             grow();
-        if (size == tail)
-            throw new IndexOutOfBoundsException();
-        
         queue[tail++] = item;
     }
 
+    /*
     public int remove() {
         if (head != tail) {
             int value = queue[head];
@@ -47,7 +45,18 @@ public class ArrayQueue {
         } else {
             throw new Error("Empty Queue");
         }
+    }
 
+     */
+
+    public int remove() {
+        if (head != tail) {
+            int value = queue[head];
+            head++;
+            return value;
+        } else {
+            throw new Error("Empty Queue");
+        }
     }
 
     public String toString() {

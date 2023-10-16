@@ -2,6 +2,7 @@ package Queues;
 
 public class Main {
     public static void main(String[] args) {
+
         /*
         Queue queue = new Queue();
         queue.add(1);
@@ -15,7 +16,9 @@ public class Main {
         queue.print();
         queue.remove();
         queue.print();
-        */
+
+         */
+
 
         /*
         BinaryTree tree = new BinaryTree();
@@ -31,9 +34,12 @@ public class Main {
         for (int i : tree) {
             System.out.println("next value " + i);
         }
-        */
 
-        ArrayQueue queue = new ArrayQueue(4);
+         */
+
+
+
+        ArrayQueue queue = new ArrayQueue(2);
         queue.add(1);
         queue.add(2);
         queue.add(3);
@@ -41,6 +47,8 @@ public class Main {
         System.out.println(queue.toString());
         queue.remove();
         System.out.println(queue.toString());
+
+
 
     }
 }
