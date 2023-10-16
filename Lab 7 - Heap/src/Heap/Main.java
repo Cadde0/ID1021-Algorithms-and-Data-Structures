@@ -27,7 +27,7 @@ public class Main {
         theap.push(1);
 
          */
-
+        /*
         PriorityQueue2 pq2 = new PriorityQueue2();
         pq2.add(5,2);
         pq2.add(7,3);
@@ -36,5 +36,16 @@ public class Main {
         pq2.printList();
         pq2.remove();
         pq2.printList();
+
+         */
+
+
+        ArrayHeap ah = new ArrayHeap(8);
+        ah.add(1,1);
+        ah.add(2,2);
+        ah.add(4,3);
+        ah.printHeap();
+        ah.remove();
+        ah.printHeap();
     }
 }

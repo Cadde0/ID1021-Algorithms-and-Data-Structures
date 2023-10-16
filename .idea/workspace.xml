@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9e1ba1b-a970-468a-b292-d88a449eeb0c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 6 - Queues/src/Queues/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 6 - Queues/src/Queues/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 6 - Queues/src/Queues/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 6 - Queues/src/Queues/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 7 - Heap/src/Heap/ArrayHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 7 - Heap/src/Heap/ArrayHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 7 - Heap/src/Heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 7 - Heap/src/Heap/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,20 @@
       <recent name="Queues" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeHeapBench">
+  <component name="RunManager" selected="Application.HeapBench">
+    <configuration name="HeapBench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.HeapBench" />
+      <module name="Lab 7 - Heap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Heap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Heap.Main" />
       <module name="Lab 7 - Heap" />
@@ -124,26 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree.Bench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Bench" />
-      <module name="Lab 5 - Tree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapBench" />
+        <item itemvalue="Application.Heap.Main" />
         <item itemvalue="Application.TreeHeapBench" />
         <item itemvalue="Application.PriorityQueueBench" />
-        <item itemvalue="Application.Heap.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Tree.Bench" />
       </list>
     </recent_temporary>
   </component>
