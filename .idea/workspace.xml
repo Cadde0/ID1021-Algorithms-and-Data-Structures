@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9e1ba1b-a970-468a-b292-d88a449eeb0c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 7 - Heap/src/Heap/ArrayHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 7 - Heap/src/Heap/ArrayHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 7 - Heap/src/Heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 7 - Heap/src/Heap/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,33 +62,24 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Lab 9 - Graphs/src/Graphs" />
+      <recent name="$PROJECT_DIR$/Lab 9 - Graphs" />
+      <recent name="$PROJECT_DIR$/test hash/src/hashtest" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/HP35/src" />
+      <recent name="$PROJECT_DIR$/Lab 8 - Hash/src/Hash" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Graphs" />
       <recent name="Queues" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeapBench">
-    <configuration name="HeapBench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.HeapBench" />
-      <module name="Lab 7 - Heap" />
+  <component name="RunManager" selected="Application.Test1">
+    <configuration name="Hash.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hash.Main" />
+      <module name="Lab 8 - Hash" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Heap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.Main" />
-      <module name="Lab 7 - Heap" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +88,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queues.Main" />
-      <module name="Lab 6 - Queues" />
+      <option name="MAIN_CLASS_NAME" value="Graphs.Main" />
+      <module name="Lab 9 - Graphs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queues.*" />
+          <option name="PATTERN" value="Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueBench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.PriorityQueueBench" />
-      <module name="Lab 7 - Heap" />
+    <configuration name="Paths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.Paths" />
+      <module name="Lab 9 - Graphs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeHeapBench" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.TreeHeapBench" />
-      <module name="Lab 7 - Heap" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.Test1" />
+      <module name="Lab 9 - Graphs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtest.lab" />
+      <module name="test hash" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HeapBench" />
-        <item itemvalue="Application.Heap.Main" />
-        <item itemvalue="Application.TreeHeapBench" />
-        <item itemvalue="Application.PriorityQueueBench" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Paths" />
+        <item itemvalue="Application.lab" />
+        <item itemvalue="Application.Hash.Main" />
       </list>
     </recent_temporary>
   </component>

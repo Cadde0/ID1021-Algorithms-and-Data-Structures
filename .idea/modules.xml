@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/Lab 5 - Tree/Lab 5 - Tree.iml" filepath="$PROJECT_DIR$/Lab 5 - Tree/Lab 5 - Tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab 6 - Queues/Lab 6 - Queues.iml" filepath="$PROJECT_DIR$/Lab 6 - Queues/Lab 6 - Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab 7 - Heap/Lab 7 - Heap.iml" filepath="$PROJECT_DIR$/Lab 7 - Heap/Lab 7 - Heap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 8 - Hash/Lab 8 - Hash.iml" filepath="$PROJECT_DIR$/Lab 8 - Hash/Lab 8 - Hash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab 9 - Graphs/Lab 9 - Graphs.iml" filepath="$PROJECT_DIR$/Lab 9 - Graphs/Lab 9 - Graphs.iml" />
     </modules>
   </component>
 </project>
